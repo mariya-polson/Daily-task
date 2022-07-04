@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="signUp.css" />
+    <title>Sign Up Page</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <img src="Group 233.png" alt="background-image" />
+      <!-- -----------------------------Section 1----------------------------------->
+      <div class="container-1">
+        <img class="background" src="Group 232.png" />
+        <h5>Our Philosophy</h5>
+        <p>Attention. Always.</p>
+        <img class="aspire-logo" src="Image 56.png" alt="aspirelogo" />
+      </div>
+      <!-- ------------------------------Section 2---------------------------------->
+      <div class="container-2">
+        <h2>Hello!</h2>
+        <p>Employee Portal Login</p>
+        <div class="container2-1">
+          <label id="user" for="uname">Username</label><br/>
+          <input type="text" class="login-text-input" placeholder="Ramesh" name="uname" required /><br/>
+           <label  id="emailid" for="email">Email</label><br/>
+           <input type="text" class="signup-email" placeholder="Ramesh.kanniyappan@aspiresys.com" name="email" required><br/>
+          <label id="pswd"  for="psw">Password</label><br/>
+          <input
+          id="login-pswd-input"
+            type="password"
+            placeholder="***************"
+            name="psw"
+            required
+          /> 
+          <i class="far fa-eye" id="togglePassword"></i>
+          <label id="service-line"  for="service">Service Line</label><br/>
+          <select name="service" id="service">
+            <option value="Usability Engineering">Usability Engineering</option>
+            <option value="Development">Development</option>
+          </select>
+           <button id="signup" type="submit">Create your Account</button> 
+        </div>
+    </div>
+    <script src="signUp.js"></script>
+  </body>
+</html>
